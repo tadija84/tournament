@@ -1,0 +1,24 @@
+{
+  "name": "assignment",
+  "version": "1.0.0",
+  "description": "```\r Napisati javascript program generisanja žreba za turnir u tenisu.\r Broj tenisera koji učestvuju na turniru je definisan parametrom N koji ne sme biti veći od 64.\r Svakog tenisera definišu 4 parametra: Ime(name), Prezime(lastName), Zemlja porekla(country), Ranking(ranking)\r Teniseri ne mogu deliti isti ranking.\r Teniseri u prvoj rundi ne mogu igrati protiv igrača koji je direktno ispred ili ispod njih na rang listi.\r Nakon generisanog žreba, napisati simulaciju turnira i u output ispisati svaki krug turnira i, naravno, pobednika.\r Za simulaciju pobednika dovoljno je nasumično izabrati jednog tenisera.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tadija",
+  "license": "ISC",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "assignment"
+  },
+  "keywords": [
+    "tennis",
+    "tournament"
+  ]
+}
